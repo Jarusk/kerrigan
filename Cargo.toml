@@ -1,0 +1,6 @@
+[package]
+name = "kerrigan"
+version = "0.1.0"
+authors = ["Matt Yaraskavitch <myaraskavitch@softwaresecured.com>"]
+
+[dependencies]
