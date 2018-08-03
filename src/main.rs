@@ -1,3 +1,6 @@
+mod parseargs;
+
 fn main() {
-        println!("Hello World");
+    println!("Hello World");
+    parseargs::parse_arguments();
 }
