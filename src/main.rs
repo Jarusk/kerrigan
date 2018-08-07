@@ -2,5 +2,6 @@ mod parseargs;
 
 fn main() {
     println!("Hello World");
-    parseargs::parse_arguments();
+    let mut args = parseargs::ConfigOptions::new();
+    args.parse_cmd_args();
 }
